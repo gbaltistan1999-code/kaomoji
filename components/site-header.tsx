@@ -50,7 +50,7 @@ export function SiteHeader({ locale, pageKey }: { locale: Locale; pageKey: PageK
   const categoryLinks = CATEGORY_PAGE_KEYS.map((k) => ({ href: pathFor(k, locale), name: ui.categoryTitles[k], key: k }));
 
   return (
-    <header className="border-b border-line bg-bg/90 backdrop-blur supports-[backdrop-filter]:bg-bg/75">
+    <header className="relative z-40 border-b border-line bg-bg/90 backdrop-blur supports-[backdrop-filter]:bg-bg/75">
       <a href="#main" className="sr-only-focusable absolute left-2 top-2 z-50 rounded bg-card px-3 py-2">
         {ui.nav.skipToContent}
       </a>
