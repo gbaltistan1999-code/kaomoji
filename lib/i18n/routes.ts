@@ -6,7 +6,8 @@ import { siteConfig } from "../site-config";
 
 export type CategoryPageKey = PageCategoryId;
 export type StaticPageKey = "about" | "contact" | "privacy" | "terms" | "cookies" | "disclaimer" | "faq";
-export type PageKey = "home" | CategoryPageKey | "maker" | StaticPageKey;
+export type SymbolPageKey = "heartSymbols" | "starSymbols";
+export type PageKey = "home" | CategoryPageKey | "maker" | SymbolPageKey | StaticPageKey;
 
 export const ROUTES: Record<PageKey, Record<Locale, string>> = {
   home: { en: "", es: "", pt: "", id: "", vi: "" },
@@ -22,6 +23,8 @@ export const ROUTES: Record<PageKey, Record<Locale, string>> = {
   angel: { en: "angel-kaomoji", es: "kaomojis-de-angel", pt: "kaomojis-de-anjo", id: "kaomoji-malaikat", vi: "kaomoji-thien-than" },
   blush: { en: "blush-kaomoji", es: "kaomojis-sonrojados", pt: "kaomojis-corados", id: "kaomoji-malu", vi: "kaomoji-ngai-ngung" },
   maker: { en: "kaomoji-maker", es: "creador-de-kaomojis", pt: "criador-de-kaomojis", id: "pembuat-kaomoji", vi: "tao-kaomoji" },
+  heartSymbols: { en: "heart-symbols", es: "simbolos-de-corazon", pt: "simbolos-de-coracao", id: "simbol-hati", vi: "ky-hieu-trai-tim" },
+  starSymbols: { en: "star-symbols", es: "simbolos-de-estrellas", pt: "simbolos-de-estrela", id: "simbol-bintang", vi: "ky-hieu-ngoi-sao" },
   about: { en: "about", es: "acerca-de", pt: "sobre", id: "tentang", vi: "gioi-thieu" },
   contact: { en: "contact", es: "contacto", pt: "contato", id: "kontak", vi: "lien-he" },
   privacy: { en: "privacy-policy", es: "politica-de-privacidad", pt: "politica-de-privacidade", id: "kebijakan-privasi", vi: "chinh-sach-bao-mat" },
@@ -34,6 +37,12 @@ export const ROUTES: Record<PageKey, Record<Locale, string>> = {
 export const CATEGORY_PAGE_KEYS: CategoryPageKey[] = ["cute", "sad", "cat", "happy", "heart", "star", "shrug", "bunny", "angry", "angel", "blush"];
 export const STATIC_PAGE_KEYS: StaticPageKey[] = ["about", "contact", "privacy", "terms", "cookies", "disclaimer", "faq"];
 export const PAGE_KEYS = Object.keys(ROUTES) as PageKey[];
+
+export const SYMBOL_PAGE_KEYS: SymbolPageKey[] = ["heartSymbols", "starSymbols"];
+
+export function isSymbolPageKey(key: PageKey): key is SymbolPageKey {
+  return (SYMBOL_PAGE_KEYS as string[]).includes(key);
+}
 
 export function isCategoryPageKey(key: PageKey): key is CategoryPageKey {
   return (CATEGORY_PAGE_KEYS as string[]).includes(key);

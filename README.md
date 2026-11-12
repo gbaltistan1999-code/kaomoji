@@ -1,6 +1,6 @@
 # KaomojiZone
 
-A multilingual, SEO-focused kaomoji copy-and-paste website: 828 kaomoji in 18 categories, instant search, one-click copy, Discord-safe copy, a Kaomoji Maker, and full legal/trust pages.
+A multilingual, SEO-focused kaomoji copy-and-paste website: 828 kaomoji in 18 categories, instant search, one-click copy, Discord-safe copy, a Kaomoji Maker, Heart Symbols and Star Symbols pages, and full legal/trust pages.
 
 Built with **Next.js 15 (App Router) + TypeScript + Tailwind CSS 4**. No database, no backend, no API keys, no `.env` files.
 
@@ -16,7 +16,7 @@ npm run dev          # http://localhost:3000
 | Command | What it does |
 |---|---|
 | `npm run dev` | Development server |
-| `npm run build` | Production build (static generation of all 105 pages) |
+| `npm run build` | Production build (static generation of all 115 pages) |
 | `npm start` | Serve the production build |
 | `npm test` | Unit tests (Vitest) |
 | `npm run lint` | ESLint |
@@ -69,6 +69,7 @@ components/                Header, footer, grid, library controls, maker, cookie
 data/
   kaomoji/                 AUTO-GENERATED kaomoji data (one file per category)
   maker/parts.ts           Kaomoji Maker part lists
+  symbols/index.ts         Heart and star symbols (grouped) for the symbol pages
   i18n/<locale>/           ui, groups, labels, home, categories, pages per language
 docs/appendix-a.md         Source of truth for the kaomoji library
 lib/
@@ -118,6 +119,13 @@ tests/                     Vitest unit tests
 5. Write unique page content in every locale's `categories.ts`. TypeScript will tell you which locales are missing it.
 6. Run `npm test && npm run build`.
 
+### Add or change heart/star symbols
+
+1. Edit the groups in `data/symbols/index.ts`. Use text characters only, with no emoji pictures and no variation selectors (U+FE0E/U+FE0F).
+2. If you add a new group, add its translated title to `symbolPages.<page>.groupTitles` in every `data/i18n/<locale>/symbols.ts`.
+3. Run `npm test`. It checks for duplicates, variation selectors, a minimum of 75 symbols per page, and group titles in every locale.
+4. Check the page on an older phone or on Windows 10. Characters from rare scripts (for example Cham, Tai Le or Egyptian hieroglyphs) often show as empty boxes there.
+
 ### Enable or disable a language
 
 Locales live in [`lib/i18n/config.ts`](lib/i18n/config.ts). Flip `enabled`. Disabled locales are not built, linked, or listed in the sitemap or hreflang. No component changes are needed.
@@ -135,10 +143,10 @@ Locales live in [`lib/i18n/config.ts`](lib/i18n/config.ts). Flip `enabled`. Disa
 
 Results from the last local run:
 
-- `npm test`: **6 files, 59 tests passed**. They cover data integrity (all 828 kaomoji match Appendix A character for character, no duplicates, stable ids, unique labels, at least 50 per page), search (tags, labels, accent-insensitive, localized words like `gato` / `kucing` / `mèo` / `meo`), Discord escaping (shrug, bunny, round-trip for every kaomoji), maker logic, translation completeness, slug format and hreflang reciprocity.
+- `npm test`: **7 files, 67 tests passed**. They cover data integrity (all 828 kaomoji match Appendix A character for character, no duplicates, stable ids, unique labels, at least 50 per page), search (tags, labels, accent-insensitive, localized words like `gato` / `kucing` / `mèo` / `meo`), Discord escaping (shrug, bunny, round-trip for every kaomoji), maker logic, translation completeness, slug format, hreflang reciprocity, and symbol data (unique, text-only, translated group titles).
 - `npm run typecheck` and `npm run lint`: clean.
-- `npm run build`: 105 static pages (21 pages × 5 locales).
-- Manual smoke test against the production server: correct `lang` per locale, self-canonicals, reciprocal hreflang + `x-default`, sitemap with 100 URLs and `xhtml:link` alternates, JSON-LD parses on every page type, localized 404s return HTTP 404, `/en/*` returns 301, no language-based redirects.
+- `npm run build`: 115 static pages (23 pages × 5 locales).
+- Manual smoke test against the production server: correct `lang` per locale, self-canonicals, reciprocal hreflang + `x-default`, sitemap with 110 URLs and `xhtml:link` alternates, JSON-LD parses on every page type, localized 404s return HTTP 404, `/en/*` returns 301, no language-based redirects.
 - Visual check (headless Chrome): desktop, 375px mobile, and dark mode.
 
 **Not yet done** (requires a deployed URL or a real device): Lighthouse / Core Web Vitals scores, Rich Results validation, and copy testing on real iOS/Android browsers.

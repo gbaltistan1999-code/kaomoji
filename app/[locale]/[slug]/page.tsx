@@ -3,7 +3,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { enabledLocales, isEnabledLocale, type Locale } from "@/lib/i18n/config";
-import { PAGE_KEYS, ROUTES, isCategoryPageKey, pageKeyFromSlug, type CategoryPageKey, type PageKey, type StaticPageKey } from "@/lib/i18n/routes";
+import { PAGE_KEYS, ROUTES, isCategoryPageKey, isSymbolPageKey, pageKeyFromSlug, type CategoryPageKey, type PageKey, type StaticPageKey } from "@/lib/i18n/routes";
 import { getBundle } from "@/data/i18n";
 import { buildMetadata } from "@/lib/seo";
 import { CategoryPage } from "@/components/pages/category-page";
@@ -11,6 +11,7 @@ import { MakerPage } from "@/components/pages/maker-page";
 import { StaticPage } from "@/components/pages/static-page";
 import { FaqPage } from "@/components/pages/faq-page";
 import { ContactPage } from "@/components/pages/contact-page";
+import { SymbolPage } from "@/components/pages/symbol-page";
 
 type Params = { params: Promise<{ locale: Locale; slug: string }> };
 
@@ -37,6 +38,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const b = getBundle(locale);
   if (isCategoryPageKey(key)) return buildMetadata(key, locale, b.categories[key]);
   if (key === "maker") return buildMetadata(key, locale, b.maker);
+  if (isSymbolPageKey(key)) return buildMetadata(key, locale, b.symbolPages[key]);
   return buildMetadata(key, locale, b.pages[key as StaticPageKey]);
 }
 
@@ -45,6 +47,7 @@ export default async function SlugPage({ params }: Params) {
   const key = resolve(locale, slug);
   if (isCategoryPageKey(key)) return <CategoryPage locale={locale} id={key as CategoryPageKey} />;
   if (key === "maker") return <MakerPage locale={locale} />;
+  if (isSymbolPageKey(key)) return <SymbolPage locale={locale} pageKey={key} />;
   if (key === "faq") return <FaqPage locale={locale} />;
   if (key === "contact") return <ContactPage locale={locale} />;
   return <StaticPage locale={locale} pageKey={key as Exclude<StaticPageKey, "faq" | "contact">} />;

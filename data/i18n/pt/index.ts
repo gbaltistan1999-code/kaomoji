@@ -6,5 +6,6 @@ import { labels } from "./labels";
 import { home } from "./home";
 import { categories } from "./categories";
 import { maker, pages } from "./pages";
+import { symbolPages } from "./symbols";
 
-export const pt: LocaleBundle = { ui, groups, labels, home, categories, maker, pages };
+export const pt: LocaleBundle = { ui, groups, labels, home, categories, maker, symbolPages, pages };

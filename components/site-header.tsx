@@ -47,7 +47,11 @@ export function LanguageSwitcher({ locale, pageKey, align = "right" }: { locale:
 export function SiteHeader({ locale, pageKey }: { locale: Locale; pageKey: PageKey }) {
   const { ui } = getBundle(locale);
   const navLink = "rounded-lg px-3 py-2 text-sm text-ink no-underline hover:bg-card";
-  const categoryLinks = CATEGORY_PAGE_KEYS.map((k) => ({ href: pathFor(k, locale), name: ui.categoryTitles[k], key: k }));
+  const categoryLinks: { href: string; name: string; key: PageKey }[] = [
+    ...CATEGORY_PAGE_KEYS.map((k) => ({ href: pathFor(k, locale), name: ui.categoryTitles[k], key: k as PageKey })),
+    { href: pathFor("heartSymbols", locale), name: ui.symbols.navHearts, key: "heartSymbols" },
+    { href: pathFor("starSymbols", locale), name: ui.symbols.navStars, key: "starSymbols" },
+  ];
 
   return (
     <header className="relative z-40 border-b border-line bg-bg/90 backdrop-blur supports-[backdrop-filter]:bg-bg/75">

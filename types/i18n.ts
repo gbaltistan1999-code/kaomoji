@@ -85,6 +85,10 @@ export interface UiDict {
     starTitle: string;
     starText: string;
     copyAria: string;
+    seeAllHearts: string;
+    seeAllStars: string;
+    navHearts: string;
+    navStars: string;
   };
   relatedTitle: string;
   relatedText: string;
@@ -174,6 +178,13 @@ export interface MakerContent extends PageMeta {
   faqs: Faq[];
 }
 
+export interface SymbolPageContent extends PageMeta {
+  /** Keyed by group id from data/symbols. */
+  groupTitles: Record<string, string>;
+  sections: ContentSection[];
+  faqs: Faq[];
+}
+
 export interface StaticContent extends PageMeta {
   sections: ContentSection[];
 }
@@ -191,6 +202,7 @@ export interface LocaleBundle {
   home: HomeContent;
   categories: Record<PageCategoryId, CategoryContent>;
   maker: MakerContent;
+  symbolPages: { heartSymbols: SymbolPageContent; starSymbols: SymbolPageContent };
   pages: {
     about: StaticContent;
     contact: StaticContent;

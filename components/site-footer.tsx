@@ -42,6 +42,16 @@ export function SiteFooter({ locale, pageKey }: { locale: Locale; pageKey: PageK
                 </Link>
               </li>
             ))}
+            <li>
+              <Link href={pathFor("heartSymbols", locale)} className={link}>
+                {ui.symbols.navHearts}
+              </Link>
+            </li>
+            <li>
+              <Link href={pathFor("starSymbols", locale)} className={link}>
+                {ui.symbols.navStars}
+              </Link>
+            </li>
           </ul>
         </div>
         <div>

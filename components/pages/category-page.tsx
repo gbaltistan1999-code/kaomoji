@@ -1,5 +1,5 @@
 import type { Locale } from "@/lib/i18n/config";
-import type { CategoryPageKey, PageKey } from "@/lib/i18n/routes";
+import { pathFor, type CategoryPageKey, type PageKey } from "@/lib/i18n/routes";
 import { getBundle } from "@/data/i18n";
 import { getCategoryView } from "@/lib/kaomoji-view";
 import { faqLd, itemListLd, webPageLd } from "@/lib/seo";
@@ -33,6 +33,8 @@ export function CategoryPage({ locale, id }: { locale: Locale; id: CategoryPageK
   const related: { key: PageKey; name: string }[] = [
     { key: "home", name: b.ui.nav.home },
     ...RELATED[id].map((k) => ({ key: k as PageKey, name: b.ui.categoryTitles[k] })),
+    ...(id === "heart" || id === "cute" || id === "blush" ? [{ key: "heartSymbols" as PageKey, name: b.ui.symbols.navHearts }] : []),
+    ...(id === "star" || id === "angel" ? [{ key: "starSymbols" as PageKey, name: b.ui.symbols.navStars }] : []),
     { key: "maker", name: b.ui.nav.maker },
   ];
   return (
@@ -53,10 +55,24 @@ export function CategoryPage({ locale, id }: { locale: Locale; id: CategoryPageK
         <CategoryPills locale={locale} current={id} />
       </div>
       {id === "heart" && (
-        <SymbolStrip title={b.ui.symbols.heartTitle} text={b.ui.symbols.heartText} symbols={heartSymbols} copyAria={b.ui.symbols.copyAria} />
+        <SymbolStrip
+          title={b.ui.symbols.heartTitle}
+          text={b.ui.symbols.heartText}
+          symbols={heartSymbols}
+          copyAria={b.ui.symbols.copyAria}
+          href={pathFor("heartSymbols", locale)}
+          linkText={b.ui.symbols.seeAllHearts}
+        />
       )}
       {id === "star" && (
-        <SymbolStrip title={b.ui.symbols.starTitle} text={b.ui.symbols.starText} symbols={starSymbols} copyAria={b.ui.symbols.copyAria} />
+        <SymbolStrip
+          title={b.ui.symbols.starTitle}
+          text={b.ui.symbols.starText}
+          symbols={starSymbols}
+          copyAria={b.ui.symbols.copyAria}
+          href={pathFor("starSymbols", locale)}
+          linkText={b.ui.symbols.seeAllStars}
+        />
       )}
       <CategoryLibrary cat={cat} locale={locale} />
       <article className="mx-auto mt-12 max-w-3xl">
