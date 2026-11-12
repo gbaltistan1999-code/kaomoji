@@ -1,0 +1,31 @@
+// AUTO-GENERATED from docs/appendix-a.md by scripts/generate-kaomoji.mjs. Do not edit by hand.
+import type { Kaomoji } from "@/types/kaomoji";
+
+export const surprisedKaomoji: Kaomoji[] = [
+  { id: "surprised-001", kaomoji: "(°ロ°)", label: "Shocked face", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-002", kaomoji: "(⊙_⊙)", label: "Wide-eyed stare", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-003", kaomoji: "(⊙ω⊙)", label: "Stunned", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-004", kaomoji: "(⊙▽⊙)", label: "Amazed", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-005", kaomoji: "(⊙０⊙)", label: "Speechless", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-006", kaomoji: "(O_O)", label: "Wide eyes", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-007", kaomoji: "(o_O)", label: "Confused surprise", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-008", kaomoji: "(O_o)", label: "Double take", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-009", kaomoji: "(°o°)", label: "Gasping", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-010", kaomoji: "(ﾟДﾟ)", label: "Startled", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-011", kaomoji: "(☉｡☉)!", label: "Surprised blink", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-012", kaomoji: "(◎_◎;)", label: "Dizzy surprise", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-013", kaomoji: "(＊〇□〇)……！", label: "Utterly shocked", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-014", kaomoji: "(・□・;)", label: "Awkward surprise", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-015", kaomoji: "(゜-゜)", label: "Blank surprise", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-016", kaomoji: "(□_□)", label: "Blank stare", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-017", kaomoji: "w(°ｏ°)w", label: "Whoa", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-018", kaomoji: "Σ(°△°|||)", label: "Horrified", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-019", kaomoji: "Σ(O_O)", label: "Shocked gasp", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-020", kaomoji: "Σ(ﾟДﾟ)", label: "Startled shout", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-021", kaomoji: "Σ(°ロ°)", label: "Startled jump", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-022", kaomoji: "Σ(っ °Д °;)っ", label: "Running away in shock", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-023", kaomoji: "(ʘᗩʘ')", label: "Jaw dropped", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-024", kaomoji: "(ʘ_ʘ)", label: "Staring in shock", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-025", kaomoji: "∑(O_O;)", label: "Nervous shock", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+  { id: "surprised-026", kaomoji: "ヽ(°〇°)ﾉ", label: "Arms up in shock", category: "surprised", group: "surprised", tags: ["surprised","shocked","wow","omg"], description: "surprised shocked face" },
+];
