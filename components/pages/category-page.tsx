@@ -7,6 +7,8 @@ import { PageBreadcrumbs, PageShell, RelatedLinks } from "../page-shell";
 import { CategoryLibrary, CategoryPills } from "../kaomoji-library";
 import { ContentSections, FaqList } from "../content-sections";
 import { JsonLd } from "../json-ld";
+import { SymbolStrip } from "../symbol-strip";
+import { heartSymbols, starSymbols } from "@/data/symbols";
 
 // Internal linking between closely related collections.
 export const RELATED: Record<CategoryPageKey, CategoryPageKey[]> = {
@@ -50,6 +52,12 @@ export function CategoryPage({ locale, id }: { locale: Locale; id: CategoryPageK
       <div className="mb-4">
         <CategoryPills locale={locale} current={id} />
       </div>
+      {id === "heart" && (
+        <SymbolStrip title={b.ui.symbols.heartTitle} text={b.ui.symbols.heartText} symbols={heartSymbols} copyAria={b.ui.symbols.copyAria} />
+      )}
+      {id === "star" && (
+        <SymbolStrip title={b.ui.symbols.starTitle} text={b.ui.symbols.starText} symbols={starSymbols} copyAria={b.ui.symbols.copyAria} />
+      )}
       <CategoryLibrary cat={cat} locale={locale} />
       <article className="mx-auto mt-12 max-w-3xl">
         <ContentSections sections={content.sections} locale={locale} strings={{ examplesLabel: b.ui.examplesLabel, copyAria: b.ui.library.copyAria }} />

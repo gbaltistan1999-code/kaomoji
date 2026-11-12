@@ -98,6 +98,13 @@ export const ui: UiDict = {
     wave: "Wave Kaomoji",
   },
   breadcrumbHome: "Kaomoji",
+  symbols: {
+    heartTitle: "Heart symbols to copy",
+    heartText: "Single heart characters for messages, bios and names. Tap one to copy it.",
+    starTitle: "Star symbols to copy",
+    starText: "Single star and sparkle characters. Tap one to copy it.",
+    copyAria: "Copy symbol: {symbol}",
+  },
   relatedTitle: "Keep exploring",
   relatedText: "Related collections and tools:",
   faqTitle: "Frequently asked questions",

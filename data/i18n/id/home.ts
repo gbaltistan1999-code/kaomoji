@@ -2,14 +2,14 @@
 import type { HomeContent } from "@/types/i18n";
 
 export const home: HomeContent = {
-  title: "Kaomoji Copy Paste: 800+ Emotikon Jepang Lucu",
+  title: "Kaomoji Copy Paste: 800+ Emoticon Jepang & Emoji Teks",
   description:
-    "Salin dan tempel lebih dari 800 kaomoji dengan sekali klik: emotikon Jepang lucu, senang, sedih, kucing, hati, dan lainnya, dikelompokkan per emosi dan hewan. Gratis, tanpa daftar.",
+    "Salin dan tempel lebih dari 800 kaomoji (emoticon Jepang dan emoji teks) dengan sekali klik: emot lucu, senang, sedih, kucing, hati, dan lainnya, dikelompokkan per emosi dan hewan. Gratis, tanpa daftar.",
   h1: "Kaomoji Copy Paste",
-  intro: "828 emotikon Jepang dari teks, dikelompokkan per emosi dan hewan. Cari, ketuk, lalu tempel di mana saja.",
+  intro: "828 emoticon Jepang dan emoji teks, dikelompokkan per emosi dan hewan. Cari, ketuk, lalu tempel di mana saja.",
   sections: [
     {
-      heading: "Apa itu kaomoji?",
+      heading: "Apa itu kaomoji (emoticon Jepang)?",
       paragraphs: [
         "Kaomoji (顔文字) adalah wajah yang dibuat dari karakter teks. Kata Jepang ini menggabungkan kao (wajah) dan moji (karakter). Berbeda dengan emotikon Barat seperti :-) yang dibaca sambil memiringkan kepala, kaomoji dibaca tegak: mata, mulut, pipi, dan tangannya menghadap langsung ke kamu, seperti (◕‿◕).",
         "Karena hanya berupa teks, kaomoji bisa ditempel hampir di mana saja yang menerima teks: WhatsApp, komentar, bio, nama pengguna, chat game, dan dokumen. Kaomoji meminjam karakter dari banyak sistem tulisan (kana Jepang, Sirilik, Kannada, Thai, Yunani, dan Korea), ditambah simbol, karakter garis kotak, dan tanda gabung. Campuran inilah yang membuat kaomoji begitu ekspresif.",

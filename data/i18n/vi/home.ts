@@ -2,14 +2,14 @@
 import type { HomeContent } from "@/types/i18n";
 
 export const home: HomeContent = {
-  title: "Kaomoji sao chép & dán: hơn 800 biểu tượng cảm xúc Nhật Bản",
+  title: "Kaomoji sao chép & dán: hơn 800 emoticon Nhật Bản & emoji chữ",
   description:
     "Sao chép và dán hơn 800 kaomoji chỉ với một chạm: biểu tượng cảm xúc Nhật Bản dễ thương, vui, buồn, mèo, trái tim và nhiều hơn nữa, sắp xếp theo cảm xúc và động vật. Miễn phí, không cần đăng ký.",
   h1: "Kaomoji sao chép & dán",
-  intro: "828 gương mặt Nhật Bản bằng chữ, sắp xếp theo cảm xúc và động vật. Tìm, chạm và dán ở bất cứ đâu.",
+  intro: "828 biểu tượng cảm xúc Nhật Bản và emoji chữ, sắp xếp theo cảm xúc và động vật. Tìm, chạm và dán ở bất cứ đâu.",
   sections: [
     {
-      heading: "Kaomoji là gì?",
+      heading: "Kaomoji (biểu tượng cảm xúc Nhật Bản) là gì?",
       paragraphs: [
         "Kaomoji (顔文字) là những gương mặt được tạo từ ký tự văn bản. Từ tiếng Nhật này ghép kao (mặt) và moji (ký tự). Khác với biểu tượng cảm xúc phương Tây như :-) phải nghiêng đầu mới đọc được, kaomoji được đọc thẳng: mắt, miệng, má và tay đều hướng về phía bạn, như (◕‿◕).",
         "Vì chỉ là văn bản, kaomoji có thể dán gần như ở mọi nơi nhận chữ: Zalo, Messenger, bình luận, tiểu sử, tên người dùng, chat trong game và tài liệu. Kaomoji mượn ký tự từ nhiều hệ chữ viết (kana Nhật, Kirin, Kannada, Thái, Hy Lạp và Hàn Quốc), cùng với ký hiệu, ký tự kẻ khung và dấu kết hợp. Chính sự pha trộn này làm kaomoji giàu biểu cảm đến vậy.",

@@ -79,6 +79,13 @@ export interface UiDict {
   /** Section headings, e.g. "Cat Kaomoji". */
   categoryTitles: Record<CategoryId, string>;
   breadcrumbHome: string;
+  symbols: {
+    heartTitle: string;
+    heartText: string;
+    starTitle: string;
+    starText: string;
+    copyAria: string;
+  };
   relatedTitle: string;
   relatedText: string;
   faqTitle: string;

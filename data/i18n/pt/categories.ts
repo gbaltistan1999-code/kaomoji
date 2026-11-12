@@ -4,10 +4,10 @@ import type { PageCategoryId } from "@/types/kaomoji";
 
 export const categories: Record<PageCategoryId, CategoryContent> = {
   cute: {
-    title: "Kaomojis fofos: mais de 80 carinhas kawaii para copiar",
+    title: "Kaomojis fofos: mais de 80 emojis kawaii de texto para copiar",
     description: "Copie kaomojis fofos com um clique: sorrisos kawaii, carinhas suaves com ω, carinhas com flores e piscadinhas brilhantes como (｡◕‿◕｡) e (˶ᵔ ᵕ ᵔ˶). Grátis para chats e bios.",
     h1: "Kaomojis fofos",
-    intro: "Sorrisos kawaii, carinhas suaves com ω e piscadinhas brilhantes. Toque em qualquer uma para copiar.",
+    intro: "Sorrisos kawaii, carinhas suaves com ω e piscadinhas brilhantes: emojis de texto fofos. Toque em qualquer uma para copiar.",
     sections: [
       {
         heading: "O que deixa um kaomoji fofo?",
@@ -128,13 +128,13 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
     ],
   },
   heart: {
-    title: "Kaomojis de coração e amor: 68 carinhas para copiar",
+    title: "Kaomojis de coração, emoticons e símbolos de coração para copiar",
     description: "Copie kaomojis de coração e de amor: olhos de coração (♡ω♡), carinhas mandando corações (◕‿◕)♡, beijos ( ˘ ³˘)♥ e casais. Cópia com um clique.",
     h1: "Kaomojis de coração e amor",
-    intro: "Olhos de coração, beijos no ar e carinhas mandando amor. Toque para copiar.",
+    intro: "Emoticons de coração, olhos de coração, beijos no ar e símbolos de coração avulsos. Toque para copiar.",
     sections: [
       {
-        heading: "Os corações dos kaomojis de amor",
+        heading: "Emoticons de coração: os corações dos kaomojis de amor",
         paragraphs: [
           "Os kaomojis de amor usam principalmente três corações: o contorno ♡, o sólido ♥ e o grosso ❤. Em muitos celulares o ❤ pode aparecer como emoji vermelho em vez de texto, então o mesmo kaomoji pode ficar um pouco diferente em cada aparelho. ღ, uma letra georgiana que parece um coração enrolado, dá um toque decorativo, como em (ღ˘⌣˘ღ).",
           "Carinhas de beijo usam ³ ou ε como lábios em biquinho: ( ˘ ³˘)♥. Olhos de coração simplesmente trocam os olhos por corações: (♡ω♡).",
@@ -211,10 +211,10 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
     ],
   },
   star: {
-    title: "Kaomojis de estrela e brilho: 52 carinhas para copiar",
+    title: "Kaomojis de estrela, emoticons e símbolos de estrela para copiar",
     description: "Copie kaomojis de estrela e brilho: olhos estrelados (☆ω☆), carinhas brilhantes ✧◝(⁰▿⁰)◜✧ e varinhas mágicas (∩^o^)⊃━☆ﾟ.*･｡ﾟ. Cópia com um clique, grátis.",
     h1: "Kaomojis de estrela e brilho",
-    intro: "Olhos estrelados, rastros de glitter e feitiços mágicos para mais empolgação.",
+    intro: "Emoticons de estrela, rastros de glitter, feitiços mágicos e símbolos de estrela avulsos.",
     sections: [
       {
         heading: "Os símbolos por trás dos kaomojis brilhantes",

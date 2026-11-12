@@ -2,14 +2,14 @@
 import type { HomeContent } from "@/types/i18n";
 
 export const home: HomeContent = {
-  title: "Kaomojis para copiar y pegar: más de 800 caritas japonesas",
+  title: "Kaomojis para copiar y pegar: más de 800 emoticonos japoneses",
   description:
-    "Copia y pega más de 800 kaomojis con un clic: caritas japonesas tiernas, felices, tristes, de gatos, de corazón y más, ordenadas por emoción y animal. Gratis y sin registro.",
+    "Copia y pega más de 800 kaomojis (emoticonos japoneses y emojis de texto) con un clic: caritas tiernas, felices, tristes, de gatos, de corazón y más, ordenadas por emoción y animal. Gratis y sin registro.",
   h1: "Kaomojis para copiar y pegar",
-  intro: "828 caritas japonesas de texto, ordenadas por emoción y animal. Busca, toca y pega donde quieras.",
+  intro: "828 emoticonos japoneses y emojis de texto, ordenadas por emoción y animal. Busca, toca y pega donde quieras.",
   sections: [
     {
-      heading: "¿Qué son los kaomojis?",
+      heading: "¿Qué son los kaomojis (emoticonos japoneses)?",
       paragraphs: [
         "Los kaomojis (顔文字) son caritas hechas con caracteres de texto. La palabra japonesa une kao (cara) y moji (carácter). A diferencia de los emoticonos occidentales como :-), que se leen inclinando la cabeza, los kaomojis se leen de frente: ojos, boca, mejillas y brazos te miran directamente, como en (◕‿◕).",
         "Como son solo texto, puedes pegar kaomojis casi en cualquier lugar que acepte texto: WhatsApp, comentarios, biografías, nombres de usuario, chats de juegos y documentos. Usan caracteres de muchos sistemas de escritura (kana japonés, cirílico, canarés, tailandés, griego y coreano) además de símbolos, caracteres de dibujo de cajas y marcas combinables. Esa mezcla es lo que los hace tan expresivos.",

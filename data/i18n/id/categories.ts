@@ -4,10 +4,10 @@ import type { PageCategoryId } from "@/types/kaomoji";
 
 export const categories: Record<PageCategoryId, CategoryContent> = {
   cute: {
-    title: "Kaomoji Lucu: 80+ Emotikon Kawaii untuk Disalin",
+    title: "Kaomoji Lucu: 80+ Emoji Kawaii Teks untuk Disalin",
     description: "Salin kaomoji lucu sekali klik: senyum kawaii, wajah lembut ω, wajah berbunga, dan kedipan berkilau seperti (｡◕‿◕｡) dan (˶ᵔ ᵕ ᵔ˶). Gratis untuk chat dan bio.",
     h1: "Kaomoji Lucu",
-    intro: "Senyum kawaii, wajah lembut ω, dan kedipan berkilau. Ketuk wajah mana saja untuk menyalinnya.",
+    intro: "Senyum kawaii, wajah lembut ω, dan kedipan berkilau: emoji teks yang imut. Ketuk wajah mana saja untuk menyalinnya.",
     sections: [
       {
         heading: "Apa yang membuat kaomoji terlihat lucu?",
@@ -128,13 +128,13 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
     ],
   },
   heart: {
-    title: "Kaomoji Hati & Cinta: 68 Emotikon untuk Disalin",
+    title: "Kaomoji Hati, Emot Love & Simbol Hati untuk Disalin",
     description: "Salin kaomoji hati dan cinta: mata hati (♡ω♡), wajah mengirim hati (◕‿◕)♡, kiss bye ( ˘ ³˘)♥, dan pasangan. Salin sekali klik untuk pesan dan bio.",
     h1: "Kaomoji Hati & Kaomoji Cinta",
-    intro: "Mata hati, kiss bye, dan wajah yang mengirim cinta. Ketuk untuk menyalin.",
+    intro: "Emot love, emoticon hati, mata hati, kiss bye, dan simbol hati tunggal. Ketuk untuk menyalin.",
     sections: [
       {
-        heading: "Hati yang dipakai di kaomoji cinta",
+        heading: "Emot love: hati yang dipakai di kaomoji cinta",
         paragraphs: [
           "Kaomoji cinta kebanyakan memakai tiga karakter hati: garis ♡, padat ♥, dan tebal ❤. Di banyak HP, ❤ bisa tampil sebagai emoji merah alih-alih teks, jadi kaomoji yang sama bisa sedikit berbeda di tiap perangkat. ღ, huruf Georgia yang mirip hati keriting, menambah sentuhan dekoratif, seperti (ღ˘⌣˘ღ).",
           "Wajah mencium memakai ³ atau ε sebagai bibir monyong: ( ˘ ³˘)♥. Mata hati cukup mengganti mata dengan hati: (♡ω♡).",
@@ -211,10 +211,10 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
     ],
   },
   star: {
-    title: "Kaomoji Bintang & Kilau: 52 Emotikon untuk Disalin",
+    title: "Kaomoji Bintang, Emoticon & Simbol Bintang untuk Disalin",
     description: "Salin kaomoji bintang dan kilau: mata bintang (☆ω☆), wajah berkilauan ✧◝(⁰▿⁰)◜✧, dan tongkat sihir (∩^o^)⊃━☆ﾟ.*･｡ﾟ. Salin sekali klik, gratis.",
     h1: "Kaomoji Bintang & Kaomoji Kilau",
-    intro: "Mata berbintang, jejak glitter, dan mantra sihir untuk semangat ekstra.",
+    intro: "Emoticon bintang, jejak glitter, mantra sihir, dan simbol bintang tunggal.",
     sections: [
       {
         heading: "Simbol di balik kaomoji berkilau",

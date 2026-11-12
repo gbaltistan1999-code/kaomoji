@@ -99,6 +99,13 @@ export const ui: UiDict = {
     wave: "Kaomoji melambai",
   },
   breadcrumbHome: "Kaomoji",
+  symbols: {
+    heartTitle: "Simbol hati untuk disalin",
+    heartText: "Karakter hati tunggal untuk pesan, bio, dan nama. Ketuk salah satu untuk menyalinnya.",
+    starTitle: "Simbol bintang untuk disalin",
+    starText: "Karakter bintang dan kilau tunggal. Ketuk salah satu untuk menyalinnya.",
+    copyAria: "Salin simbol: {symbol}",
+  },
   relatedTitle: "Jelajahi lagi",
   relatedText: "Koleksi dan alat terkait:",
   faqTitle: "Pertanyaan yang sering diajukan",

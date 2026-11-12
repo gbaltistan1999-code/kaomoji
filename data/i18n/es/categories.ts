@@ -4,10 +4,10 @@ import type { PageCategoryId } from "@/types/kaomoji";
 
 export const categories: Record<PageCategoryId, CategoryContent> = {
   cute: {
-    title: "Kaomojis tiernos: más de 80 caritas kawaii para copiar",
+    title: "Kaomojis tiernos: más de 80 emojis kawaii de texto para copiar",
     description: "Copia kaomojis tiernos con un clic: sonrisas kawaii, caritas suaves con ω, caritas con flores y guiños brillantes como (｡◕‿◕｡) y (˶ᵔ ᵕ ᵔ˶). Gratis para chats y biografías.",
     h1: "Kaomojis tiernos",
-    intro: "Sonrisas kawaii, caritas suaves con ω y guiños brillantes. Toca cualquiera para copiarla.",
+    intro: "Sonrisas kawaii, caritas suaves con ω y guiños brillantes: emojis de texto tiernos. Toca cualquiera para copiarla.",
     sections: [
       {
         heading: "¿Qué hace que un kaomoji se vea tierno?",
@@ -132,13 +132,13 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
     ],
   },
   heart: {
-    title: "Kaomojis de corazón y amor: 68 caritas para copiar",
-    description: "Copia kaomojis de corazón y de amor: ojos de corazón (♡ω♡), caritas enviando corazones (◕‿◕)♡, besos ( ˘ ³˘)♥ y parejas. Copia con un clic.",
+    title: "Kaomojis de corazón y corazones para copiar y pegar",
+    description: "Copia kaomojis de corazón, emoticonos de amor y corazones para copiar y pegar (♡ ♥ ❤): ojos de corazón (♡ω♡), caritas enviando corazones (◕‿◕)♡, besos ( ˘ ³˘)♥ y parejas. Copia con un clic.",
     h1: "Kaomojis de corazón y amor",
-    intro: "Ojos de corazón, besos lanzados y caritas que envían amor. Toca para copiar.",
+    intro: "Corazones para copiar y pegar, emoticonos de corazón, ojos de corazón y besos lanzados. Toca para copiar.",
     sections: [
       {
-        heading: "Los corazones de los kaomojis de amor",
+        heading: "Emoticonos de corazón: los corazones de los kaomojis de amor",
         paragraphs: [
           "Los kaomojis de amor usan sobre todo tres corazones: el contorno ♡, el sólido ♥ y el grueso ❤. En muchos celulares ❤ puede mostrarse como emoji rojo en lugar de texto, así que el mismo kaomoji puede verse un poco distinto según el dispositivo. ღ, una letra georgiana que parece un corazón rizado, agrega un toque decorativo, como en (ღ˘⌣˘ღ).",
           "Las caritas de beso usan ³ o ε como labios fruncidos: ( ˘ ³˘)♥. Los ojos de corazón simplemente reemplazan los ojos por corazones: (♡ω♡).",
@@ -217,10 +217,10 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
     ],
   },
   star: {
-    title: "Kaomojis de estrellas y brillos: 52 caritas para copiar",
+    title: "Kaomojis de estrellas, emoticonos y símbolos de estrella para copiar",
     description: "Copia kaomojis de estrellas y brillos: ojos de estrella (☆ω☆), caritas brillantes ✧◝(⁰▿⁰)◜✧ y varitas mágicas (∩^o^)⊃━☆ﾟ.*･｡ﾟ. Copia con un clic, gratis.",
     h1: "Kaomojis de estrellas y brillos",
-    intro: "Ojos de estrella, estelas de purpurina y hechizos mágicos para más emoción.",
+    intro: "Emoticonos de estrella, estelas de purpurina, hechizos mágicos y símbolos de estrella sueltos.",
     sections: [
       {
         heading: "Los símbolos detrás de los kaomojis brillantes",

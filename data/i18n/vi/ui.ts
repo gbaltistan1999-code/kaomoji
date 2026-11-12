@@ -99,6 +99,13 @@ export const ui: UiDict = {
     wave: "Kaomoji vẫy tay",
   },
   breadcrumbHome: "Kaomoji",
+  symbols: {
+    heartTitle: "Ký hiệu trái tim để sao chép",
+    heartText: "Ký tự trái tim đơn lẻ cho tin nhắn, tiểu sử và tên. Chạm vào một ký hiệu để sao chép.",
+    starTitle: "Ký hiệu ngôi sao để sao chép",
+    starText: "Ký tự ngôi sao và lấp lánh đơn lẻ. Chạm vào một ký hiệu để sao chép.",
+    copyAria: "Sao chép ký hiệu: {symbol}",
+  },
   relatedTitle: "Khám phá thêm",
   relatedText: "Bộ sưu tập và công cụ liên quan:",
   faqTitle: "Câu hỏi thường gặp",

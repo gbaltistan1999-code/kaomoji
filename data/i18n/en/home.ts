@@ -1,16 +1,17 @@
 import type { HomeContent } from "@/types/i18n";
 
 export const home: HomeContent = {
-  title: "Kaomoji Copy and Paste: 800+ Cute Japanese Text Faces",
+  title: "Kaomoji Copy and Paste: 800+ Japanese Emoticons & Text Emoji",
   description:
-    "Copy and paste over 800 kaomoji with one click: cute, happy, sad, cat, heart, shrug and more Japanese text faces, organized by emotion and animal. Free, no sign-up.",
+    "Copy and paste over 800 kaomoji (Japanese emoticons and text emoji) with one click: cute, happy, sad, cat, heart, shrug and more, organized by emotion and animal. Free, no sign-up.",
   h1: "Kaomoji Copy and Paste",
-  intro: "828 Japanese text faces, sorted by emotion and animal. Search, tap, and paste anywhere.",
+  intro: "828 Japanese emoticons and text emoji, sorted by emotion and animal. Search, tap, and paste anywhere.",
   sections: [
     {
-      heading: "What are kaomoji?",
+      heading: "What are kaomoji (Japanese emoticons)?",
       paragraphs: [
         "Kaomoji (顔文字) are faces made out of text characters. The Japanese word combines kao (face) and moji (character). Unlike Western emoticons such as :-) that you read by tilting your head sideways, kaomoji are read upright, with the eyes, mouth, cheeks and arms all facing you: (◕‿◕).",
+        "Many people simply call them text emoji or emoticons, and you will sometimes see the word misspelled as “kamoji”. They all mean the same thing: expressive faces typed with characters instead of pictures.",
         "Because they are just text, kaomoji can be pasted into almost any place that accepts text: chats, comments, bios, usernames, game chat and documents. They borrow characters from many writing systems, including Japanese kana, Cyrillic, Kannada, Thai, Greek and Korean, plus symbols, box-drawing characters and combining marks. That mix is what gives them so much expression.",
       ],
     },
@@ -90,6 +91,10 @@ export const home: HomeContent = {
     {
       q: "What does kaomoji mean?",
       a: "Kaomoji is a Japanese word made from kao (face) and moji (character). It means faces drawn with text characters, such as (^_^) or (╥﹏╥).",
+    },
+    {
+      q: "Is it kaomoji or kamoji?",
+      a: "The correct spelling is kaomoji (kao + moji). “Kamoji” is a common misspelling, and “text emoji” or “Japanese emoticons” are other names for the same text faces.",
     },
     {
       q: "Are kaomoji free to use?",

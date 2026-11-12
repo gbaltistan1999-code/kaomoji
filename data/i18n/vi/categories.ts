@@ -4,10 +4,10 @@ import type { PageCategoryId } from "@/types/kaomoji";
 
 export const categories: Record<PageCategoryId, CategoryContent> = {
   cute: {
-    title: "Kaomoji dễ thương: hơn 80 gương mặt kawaii để sao chép",
+    title: "Kaomoji dễ thương: hơn 80 emoji chữ kawaii để sao chép",
     description: "Sao chép kaomoji dễ thương chỉ một chạm: nụ cười kawaii, gương mặt mềm mại ω, gương mặt hoa và cái nháy mắt lấp lánh như (｡◕‿◕｡) và (˶ᵔ ᵕ ᵔ˶). Miễn phí cho chat và tiểu sử.",
     h1: "Kaomoji dễ thương",
-    intro: "Nụ cười kawaii, gương mặt mềm mại ω và cái nháy mắt lấp lánh. Chạm vào bất kỳ gương mặt nào để sao chép.",
+    intro: "Nụ cười kawaii, gương mặt mềm mại ω và cái nháy mắt lấp lánh: emoji chữ dễ thương. Chạm vào bất kỳ gương mặt nào để sao chép.",
     sections: [
       {
         heading: "Điều gì làm kaomoji trông dễ thương?",
@@ -128,13 +128,13 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
     ],
   },
   heart: {
-    title: "Kaomoji trái tim & tình yêu: 68 gương mặt để sao chép",
+    title: "Kaomoji trái tim, emoticon & ký hiệu trái tim để sao chép",
     description: "Sao chép kaomoji trái tim và tình yêu: mắt trái tim (♡ω♡), gương mặt gửi tim (◕‿◕)♡, thổi nụ hôn ( ˘ ³˘)♥ và cặp đôi. Sao chép một chạm cho tin nhắn và tiểu sử.",
     h1: "Kaomoji trái tim & kaomoji tình yêu",
-    intro: "Mắt trái tim, nụ hôn gió và gương mặt gửi yêu thương. Chạm để sao chép.",
+    intro: "Emoticon trái tim, mắt trái tim, nụ hôn gió và ký hiệu trái tim đơn lẻ. Chạm để sao chép.",
     sections: [
       {
-        heading: "Các trái tim trong kaomoji tình yêu",
+        heading: "Emoticon trái tim: các trái tim trong kaomoji tình yêu",
         paragraphs: [
           "Kaomoji tình yêu chủ yếu dùng ba ký tự trái tim: viền ♡, đặc ♥ và đậm ❤. Trên nhiều điện thoại, ❤ có thể hiển thị thành emoji đỏ thay vì chữ, nên cùng một kaomoji có thể hơi khác trên mỗi thiết bị. ღ, một chữ cái Gruzia trông như trái tim xoăn, tạo điểm nhấn trang trí, như (ღ˘⌣˘ღ).",
           "Gương mặt hôn dùng ³ hoặc ε làm đôi môi chu ra: ( ˘ ³˘)♥. Mắt trái tim đơn giản là thay mắt bằng trái tim: (♡ω♡).",
@@ -211,10 +211,10 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
     ],
   },
   star: {
-    title: "Kaomoji ngôi sao & lấp lánh: 52 gương mặt để sao chép",
+    title: "Kaomoji ngôi sao, emoticon & ký hiệu ngôi sao để sao chép",
     description: "Sao chép kaomoji ngôi sao và lấp lánh: mắt sao (☆ω☆), gương mặt lung linh ✧◝(⁰▿⁰)◜✧ và đũa thần (∩^o^)⊃━☆ﾟ.*･｡ﾟ. Sao chép một chạm, miễn phí.",
     h1: "Kaomoji ngôi sao & kaomoji lấp lánh",
-    intro: "Mắt sao, vệt kim tuyến và phép thuật cho thêm phần hào hứng.",
+    intro: "Emoticon ngôi sao, vệt kim tuyến, phép thuật và ký hiệu ngôi sao đơn lẻ.",
     sections: [
       {
         heading: "Các ký hiệu đằng sau kaomoji lấp lánh",

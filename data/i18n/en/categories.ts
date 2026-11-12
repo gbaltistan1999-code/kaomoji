@@ -3,14 +3,14 @@ import type { PageCategoryId } from "@/types/kaomoji";
 
 export const categories: Record<PageCategoryId, CategoryContent> = {
   cute: {
-    title: "Cute Kaomoji: 80+ Kawaii Text Faces to Copy and Paste",
+    title: "Cute Kaomoji: 80+ Kawaii Text Emoji to Copy and Paste",
     description:
-      "Copy cute kaomoji in one click: kawaii smiles, soft ω faces, flower faces and sparkly winks like (｡◕‿◕｡) and (˶ᵔ ᵕ ᵔ˶). Free Japanese text faces for chats and bios.",
+      "Copy cute kaomoji in one click: kawaii text emoji, soft ω faces, flower faces and sparkly winks like (｡◕‿◕｡) and (˶ᵔ ᵕ ᵔ˶). Free Japanese text faces for chats and bios.",
     h1: "Cute Kaomoji",
-    intro: "Kawaii smiles, soft ω faces and sparkly winks. Tap any face to copy it.",
+    intro: "Kawaii smiles, soft ω faces and sparkly winks: cute text emoji made from characters. Tap any face to copy it.",
     sections: [
       {
-        heading: "What makes a kaomoji look cute?",
+        heading: "What makes a kaomoji look cute (kawaii)?",
         paragraphs: [
           "Cute (kawaii) kaomoji rely on a few visual tricks: big round eyes like ◕ or ᵔ, small soft mouths like ‿, ᴗ or ω, and blushing cheeks made from characters like ˶, ｡ or ⸝⸝. Little extras such as flowers ✿ ❀ and sparkles ✧ make a face feel even sweeter.",
           "The ω mouth deserves a special mention. It's the Greek letter omega, and it looks like a tiny cat mouth, which is why faces like (・ω・) and (｡･ω･｡) feel soft and fluffy.",
@@ -166,14 +166,14 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
   },
 
   heart: {
-    title: "Heart Kaomoji & Love Kaomoji: 68 Text Faces to Copy",
+    title: "Heart Kaomoji & Heart Emoticons: 68 Love Text Faces to Copy",
     description:
-      "Copy heart kaomoji and love kaomoji: heart eyes (♡ω♡), faces sending hearts (◕‿◕)♡, kisses ( ˘ ³˘)♥ and couples. One-click copy for messages and bios.",
+      "Copy heart kaomoji, love emoticons and heart symbols: heart eyes (♡ω♡), faces sending hearts (◕‿◕)♡, kisses ( ˘ ³˘)♥, plus ♡ ♥ ❤ to copy and paste.",
     h1: "Heart Kaomoji & Love Kaomoji",
-    intro: "Heart eyes, blown kisses and faces sending love. Tap to copy.",
+    intro: "Heart emoticons, heart eyes, blown kisses and single heart symbols. Tap to copy.",
     sections: [
       {
-        heading: "The hearts used in love kaomoji",
+        heading: "Heart emoticons: the hearts used in love kaomoji",
         paragraphs: [
           "Love kaomoji mostly use three heart characters: the outline ♡, the solid ♥ and the heavy ❤. On many phones ❤ can be displayed as a red emoji instead of text, so the same kaomoji may look a little different on different devices. ღ, a Georgian letter that looks like a curly heart, adds a decorative touch, as in (ღ˘⌣˘ღ).",
           "Kiss faces use ³ or ε as puckered lips: ( ˘ ³˘)♥. Heart eyes simply replace the eyes with hearts: (♡ω♡).",
@@ -273,14 +273,14 @@ export const categories: Record<PageCategoryId, CategoryContent> = {
   },
 
   star: {
-    title: "Star Kaomoji & Sparkle Kaomoji: 52 Text Faces to Copy",
+    title: "Star Kaomoji & Star Emoticons: 52 Sparkle Text Faces to Copy",
     description:
-      "Copy star kaomoji and sparkle kaomoji: starry eyes (☆ω☆), glittering faces ✧◝(⁰▿⁰)◜✧ and magic wands (∩^o^)⊃━☆ﾟ.*･｡ﾟ. One-click copy, free to use.",
+      "Copy star kaomoji, star emoticons and star symbols: starry eyes (☆ω☆), glittering faces ✧◝(⁰▿⁰)◜✧, magic wands, plus ☆ ★ ✦ ✧ to copy and paste.",
     h1: "Star Kaomoji & Sparkle Kaomoji",
-    intro: "Starry eyes, glitter trails and magic spells for extra excitement.",
+    intro: "Star emoticons, glitter trails, magic spells and single star symbols for extra excitement.",
     sections: [
       {
-        heading: "The symbols behind sparkle kaomoji",
+        heading: "Star emoticons: the symbols behind sparkle kaomoji",
         paragraphs: [
           "Sparkle kaomoji mix faces with decorative symbols. ✧ is a four-pointed sparkle, ☆ and ★ are outline and solid stars, ✩ and ⋆ are smaller stars, and ﾟ･｡ and .:* sequences create a trail of glitter. Put them in the eyes and you get starry-eyed amazement (☆ω☆). Put them after a face and it looks like it's shining (◕‿◕)✧.",
           "Magic kaomoji add a wand made from ━☆, often held by arms like ∩ and ⊃: (∩^o^)⊃━☆ﾟ.*･｡ﾟ.",
