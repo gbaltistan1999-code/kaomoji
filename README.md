@@ -142,5 +142,3 @@ Results from the last local run:
 - Visual check (headless Chrome): desktop, 375px mobile, and dark mode.
 
 **Not yet done** (requires a deployed URL or a real device): Lighthouse / Core Web Vitals scores, Rich Results validation, and copy testing on real iOS/Android browsers.
-#   k a o m o j i  
- 
